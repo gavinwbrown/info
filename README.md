@@ -12,3 +12,5 @@ My redesigned, personal site, using a FREE customised Bootstrap theme
 [startbootstrap.com](https://startbootstrap.com) free bootstrap themes
 
 [getavataaars.com](https://getavataaars.com) create free svg avatars
+
+[fontawesome](https://fontawesome.com) free icons
