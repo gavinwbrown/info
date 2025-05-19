@@ -8,8 +8,18 @@ Removed the Bootstrap default contact form email sender. Added web3forms to the 
 
 ## Testing
 
-The testing was carried out using Safari 18.5 on M2 Macbook Air and mobile Safari on iPhone 16e
-Checked layout and text formatting
+The testing was carried out using Safari 18.5 on M2 Macbook Air and mobile Safari on iPhone 16e.
+Checked layout and text formatting.
+
+Performance check was performed with Google Lighthouse.
+
+![](assets/img/portfolio/googlelighthouse.png)
+
+Accessibility and Best Practice scores are lower due to CDNs for fontawesome & Google fonts. And the Ko-Fi widget. These issues are acknowledged but after manually testing the site do not require any adjustment.
+
+The main AI images used are in .png format. Lighthouse recommends a more modern web friendly format ie. .webp but after consideration I decided to leave them in their original format as some older browsers do not support webp.
+
+
 
 ## Acknowledgements
 
