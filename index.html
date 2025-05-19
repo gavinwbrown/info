@@ -189,17 +189,11 @@
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" name="name" placeholder="Your name" required />
                                 <label for="name">Full name</label>
-                                <!-- <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div> -->
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" type="email" id="email" name="email" placeholder="Email address" required />
                                 <label for="email">Email address</label>
-                                <!-- <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div> -->
                             </div>
                             <!-- Phone number input -->
                             <div class="form-floating mb-3">
@@ -214,7 +208,9 @@
                             <!-- Honeypot Spam Protection -->
                             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                             </div>
-                            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
+                            <div class="form-floating mb-3 text-center">
+                            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send Message</button>
+                            </div>
                         </form>
                     </div>
                 </div>
