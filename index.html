@@ -214,7 +214,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
                     <!-- Web3forms -->
-                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                    <form action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="bd1f587a-10b7-4366-aa41-0409332c4bf5">
                         <!-- Name input-->
                         <div class="form-floating mb-3">
@@ -657,7 +657,7 @@
     <!-- Reset form on page load to prevent sticky data in form -->
     <script>
         window.onload = function () {
-            document.getElementById("form").reset();
+            document.getElementByTagName("form").reset();
         };
     </script>
 </body>
