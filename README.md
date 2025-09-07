@@ -15,11 +15,11 @@ Performance check was performed with Google Lighthouse.
 
 ![](assets/img/portfolio/googlelighthouse.png)
 
-Accessibility and Best Practice scores are lower due to CDNs for fontawesome & Google fonts. And the Ko-Fi widget. These issues are acknowledged but after manually testing the site do not require any adjustment.
+Accessibility and Best Practice scores are lower due to CDNs for fontawesome & Google fonts. And the Coffee widget. These issues are acknowledged but after manually testing the site do not require any adjustment.
 
 The main AI images used are in .png format. Lighthouse recommends a more modern web friendly format ie. .webp but after consideration I decided to leave them in their original format as some older browsers do not support webp.
 
-Checked for Bluesky link on 07.09.25 but decided not to add it.
+07.09.25 - Changed Discord link for Bluesky.
 
 ## Acknowledgements
 
@@ -37,4 +37,4 @@ Checked for Bluesky link on 07.09.25 but decided not to add it.
 
 [Adobe Image Resizer](https://www.adobe.com/express/feature/image/resize) - resize images for free
 
-[web3forms](https://web3forms.com) - contact form API with no backend required. sends to a specified email address. has a free tier.
+[web3forms](https://web3forms.com) - contact form API with no backend required. sends to a specified email address. has a free tier
