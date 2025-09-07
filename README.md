@@ -19,6 +19,8 @@ Accessibility and Best Practice scores are lower due to CDNs for fontawesome & G
 
 The main AI images used are in .png format. Lighthouse recommends a more modern web friendly format ie. .webp but after consideration I decided to leave them in their original format as some older browsers do not support webp.
 
+Checked for Bluesky link on 07.09.25 but decided not to add it.
+
 ## Acknowledgements
 
 [SQUARESPACE Domains](https://domains.squarespace.com) - gavinbrown.info, £3.20 for the first year
